@@ -1,5 +1,5 @@
 {% set name = "openpmix" %}
-{% set version = "6.0.0" %}
+{% set version = "5.0.8" %}
 
 package:
   name: openpmix-feedstock
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://github.com/openpmix/openpmix/releases/download/v{{ version }}/pmix-{{ version }}.tar.bz2
-  sha256: bfe969966d0ce82e032739cac286239bd5ad74a831d7adae013284919f125318
+  sha256: bf5f0a341d0ec7f465627a7570f4dcda3b931bc859256428a35f6c72f13462d0
 
 build:
   skip: true  # [win]
-  number: 1
+  number: 2
 
 # one top-level build
 # outputs select which files to include
