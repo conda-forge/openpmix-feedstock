@@ -1,3 +1,5 @@
+# Get an updated config.sub and config.guess
+cp $BUILD_PREFIX/share/gnuconfig/config.* ./config
 set -ex
 
 # touch generated files to prevent unnecessary invocation of automake
